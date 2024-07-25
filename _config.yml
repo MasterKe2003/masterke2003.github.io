@@ -9,14 +9,14 @@ theme: jekyll-theme-chirpy
 lang: zh-CN
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: MasterKe # the main title
 
-tagline: 热爱生活🩷 # it will display as the sub-title
+tagline: 记录生活的美好🩷 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   masterke's blog.
@@ -28,21 +28,16 @@ url: ""
 github:
   username: masterke2003 # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: masterke
+  name: MasterKe
   email: masterke@icloud.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://masterke.cn # change to your twitter homepage
     - https://github.com/masterke2003 # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+
 
 # Site Verification Settings
 webmaster_verifications:
