@@ -6,10 +6,41 @@ tags: [数学,不定积分,三角函数]
 math: true
 ---
 
-# 不定积分
-## 三角函数相关
+## 不定积分
+### 有理分式
 
-### 万能公式
+#### 真分式
+
+- 分子凑分母的导数
+
+  <img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918063.png" style="zoom:25%;" />
+
+- 因式分解
+
+  <img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918142.png" style="zoom:25%;" />
+
+#### 假分式
+
+眼瞅分母写分子，将其变成真分式，然后再使用真分式的求解方法。
+
+### **无理根式**
+
+#### 根号换元
+
+直接令t等于一坨，反解出x，dx计算出来丢前面。
+
+#### 三角换元
+
+- $1+tanx=secx^2$
+- $sinx+cosx=1$
+
+### 三角函数
+
+#### 见到双眼要发光系列✨
+
+- $1+sin2x=(sinx+cosx)^2$
+
+#### 万能公式
 
 $$
 \frac{A}{Bsinx+Ccosx+D}
@@ -20,7 +51,7 @@ $$
 {: .prompt-tip }
 
 
-### M分母+N分母导数
+#### M分母+N分母导数
 
 $$
 \frac{Asinx+Bcosx}{Csinx+Dcosx}
@@ -32,7 +63,7 @@ $$
 写出方程，对于sinx和cosx的系数列出两个=方程，解出M和N。
 {: .prompt-tip }
 
-### 积化和差
+#### 积化和差
 
 $$
 sin(Ax)sin(Bx)
@@ -50,6 +81,5 @@ $$
 >
 > {: .prompt-tip }
 
-![](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721876131.png)
+<img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721876131.png" style="zoom: 33%;" />
 
-​	
