@@ -13,11 +13,11 @@ math: true
 
 - 分子凑分母的导数
 
-  <img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918063.png" style="zoom:25%;" />
+  <img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918063.png"  />
 
 - 因式分解
 
-  <img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918142.png" style="zoom:25%;" />
+  ![](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918142.png)
 
 #### 假分式
 
@@ -81,5 +81,4 @@ $$
 >
 > {: .prompt-tip }
 
-<img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721876131.png" style="zoom: 33%;" />
-
+![](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721876131.png)
