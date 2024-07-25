@@ -13,8 +13,7 @@ math: true
 
 - 分子凑分母的导数
 
-  <img src="https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918063.png"  />
-
+  ![](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918063.png)
 - 因式分解
 
   ![](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F25%2F1721918142.png)
