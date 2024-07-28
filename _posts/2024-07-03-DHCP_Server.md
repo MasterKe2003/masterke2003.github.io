@@ -1,7 +1,7 @@
 ---
 title: "配置DHCP服务器"
 date: 2024-07-03 22:42:57 +0800
-tags:[dhcp服务器,linux]
+tags: [dhcp服务器,linux]
 ---
 
 ## 事前准备

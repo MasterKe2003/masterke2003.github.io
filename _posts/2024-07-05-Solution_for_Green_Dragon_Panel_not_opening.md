@@ -1,7 +1,7 @@
 ---
 title: "青龙面板打不开的解决方案"
 date: 2024-07-05 14:15:46 +0800
-tags:[docker,linux,青龙面板]
+tags: [docker,linux,青龙面板]
 ---
 
 直奔主题：

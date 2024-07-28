@@ -1,7 +1,7 @@
 ---
 title: "Chrome浏览器内打开其他软件两次必定崩溃"
 date: 2024-07-10 18:18:00 +0800
-tags:[chrome,bug,吐槽]
+tags: [chrome,bug,吐槽]
 ---
 
 > bug描述

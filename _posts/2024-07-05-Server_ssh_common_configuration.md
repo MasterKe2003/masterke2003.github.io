@@ -1,7 +1,7 @@
 ---
 title: "服务器ssh常用配置"
 date: 2024-07-05 16:38:07 +0800
-tags:[ssh,linux]
+tags: [ssh,linux]
 ---
 
 # 密码登录

@@ -1,7 +1,7 @@
 ---
 title: "华凌空调接入HA"
 date: 2024-07-12 13:25:23 +0800
-tags:[HomeAssistant,智能家居,空调]
+tags: [HomeAssistant,智能家居,空调]
 ---
 
 ## 背景
