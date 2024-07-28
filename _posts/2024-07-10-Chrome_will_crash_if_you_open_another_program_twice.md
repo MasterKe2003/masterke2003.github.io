@@ -19,9 +19,9 @@ Directory Opus + win11 + 搜狗输入法或微信输入法
 
 ## 背景
 自从Windows 11发布以来，使用Directory Opus（DOpus）的中国用户遇到了一个问题：将DOpus与搜狗/微信输入法结合使用会导致Chrome崩溃。以下是一些来自中国互联网的帖子，记录了这个问题：
-  * [Chrome最近是否经常崩溃？ - V2EX](www.v2ex.com)
-  * [Windows 11下Chrome崩溃案例分析 – HafuHafu](hafuhafu.com)
-  * [Windows 11下Chrome频繁崩溃，你也这样吗？ - V2EX](machbbs.com)
+  * [Chrome最近是否经常崩溃？ - V2EX](https://www.v2ex.com)
+  * [Windows 11下Chrome崩溃案例分析 – HafuHafu](https://hafuhafu.com)
+  * [Windows 11下Chrome频繁崩溃，你也这样吗？ - V2EX](https://machbbs.com)
 经过调查，问题似乎源于DOpus注册的ShellExecuteHooks。删除这个注册表键可以防止Chrome崩溃。除此之外，还有几种方法可以防止Chrome崩溃：
   1. 删除DOpus中的ShellExecuteHooks键
   2. 卸载微信输入法或搜狗输入法
