@@ -226,3 +226,37 @@ $$
 #### 牛逼爸
 
 ![image-20240728131246848](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F28%2F1722143566.png)
+
+### 反常积分
+
+#### 反常积分判断
+
+- 积分区间无穷
+
+- 存在瑕点
+
+1. 找无定义点
+2. 判断无定义点是否为无穷间断点
+
+#### 反常积分计算
+
+四则运算
+
+#### 重要反常积分
+
+![image-20240729104531369](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F29%2F1722221138.png)
+
+![image-20240729104927329](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F29%2F1722221367.png)
+
+1️⃣区间大的影响，大的喜欢大的，大于1就收敛。
+
+2️⃣区间小的影响，小的喜欢小的，小于1就收敛。
+
+3️⃣等于1永远收敛。
+
+#### 反常积分奇偶性
+
+![image-20240729105951085](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F29%2F1722221991.png)
+
+#### 比较审敛法
+
