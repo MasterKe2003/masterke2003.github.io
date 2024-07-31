@@ -196,6 +196,143 @@ $$
 2. 公式
 3. 一半区间打开，一半进行负代换
 
+### 定积分的应用
+
+#### 几何应用
+
+##### 平面面积
+
+###### 直角坐标![image-20240729222400843](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F29%2F1722263040.png)
+
+$$
+S=\int_a^{b}f(x)dx
+$$
+
+或者
+$$
+S=\int_a^{b}f(y)dy
+$$
+
+
+**高减低，右减左，确保面积为正。**
+
+###### 极坐标系
+
+$$
+S=\frac{1}{2}\int_{\alpha}^{\beta}r^2(\theta)d\theta
+$$
+
+> 补充：扇形面积公式
+
+$$
+S=\frac{1}{2}LR=\frac{1}{2}{\theta}R^2，其中弧长L={\theta}R
+$$
+
+> 补充：重要的极坐标曲线
+
+![image-20240730083751830](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F30%2F1722299878.png)
+
+![image-20240730083823925](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F30%2F1722299904.png)
+
+###### 参数方程
+
+$$
+S=\int_{a}^{b}y_(t)x^{'}_{(t)}dt
+$$
+
+![image-20240730150046254](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F30%2F1722322846.png)
+
+> 补充：重要的极坐标曲线
+
+![image-20240730084141005](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F30%2F1722300101.png)
+
+##### 旋转体体积
+
+###### 直角坐标
+
+- 绕x轴
+
+$$
+V_x=\int_a^b{\pi}y^2dx=>其中{\pi}y^2为圆柱体的表面积,dx为圆柱体的高
+$$
+
+- 绕y轴
+
+$$
+V_y=\int_a^b2{\pi}xydx=>其中2{\pi}x为周长即展开长方体的长,y为长方体的高,dx为长方体的厚度
+$$
+
+###### 极坐标系
+
+使用极坐标方程将[直角坐标系](#旋转体体积)下的公式中x、y、dx代换掉。
+
+###### 参数方程
+
+使用参数方程将[直角坐标系](#旋转体体积)下的公式中x、y、dx代换掉。
+
+##### 弧长L
+
+> **积分限从小写到大（牵扯到弧微分一律从小写到大）**
+
+![image-20240730124236639](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F30%2F1722314556.png)
+
+易得：
+$$
+ds=\sqrt{(dx)^2+(dy)^2}
+$$
+
+###### 直角坐标
+
+$$
+L=\int_a^b\sqrt{1+(y^{'}_{x})^2}dx
+$$
+
+###### 参数方程
+
+$$
+L=\int_\alpha^\beta\sqrt{(x^{'}_t)^2+(y^{'}_t)^2}dt
+$$
+
+###### 极坐标
+
+$$
+L=\int_\alpha^\beta\sqrt{r^2+(r^{'}_\theta)^2}d\theta
+$$
+
+##### 旋转侧表面积
+
+> **积分限从小写到大（牵扯到弧微分一律从小写到大）**
+
+![image-20240730131657408](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F30%2F1722316617.png)
+
+###### 直角坐标
+
+> 公式中的y是高，要确保是正的
+
+$$
+S=\int_a^{b}2\pi{y}\sqrt{1+(y^{'}_{x})^2}dx=>其中a≤x≤b
+$$
+
+###### 参数方程
+
+$$
+S=\int_\alpha^{\beta}2\pi{y_{t}}\sqrt{(x^{'}_t)^2+(y^{'}_t)^2}dt=>其中\alpha≤x≤\beta
+$$
+
+###### 极坐标
+
+$$
+S=\int_\alpha^{\beta}2{\pi}r*sin(\theta)\sqrt{r^2+(r^{'}_\theta)^2}d\theta=>其中\alpha≤x≤\beta
+$$
+
+#### 物理应用
+
+##### 变力做工问题
+
+使用微元法。
+
+##### 力的问题
+
 ### 变限函数
 
 #### 变限函数存在性
