@@ -399,18 +399,15 @@ $$
 
 # 常微分方程
 
-### 一阶微分方程
+![image-20240802171006672](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722589806.png)
 
-#### 可分离变量形式方程
+### 一阶
 
-###### 形式
+#### 可分离变量
 
-$$
-\frac{dy}{dx}=f(x)g(x)
-$$
+y的导数可以写成f(x)和g(y)组合的形式。
 
-###### 解法
-
+解法：
 $$
 \frac{1}{g(y)}dy=f(x)dx
 $$
@@ -426,10 +423,65 @@ $$
 > 3. 出现ln积分绝对值要加
 > 4. 边界条件带入得到这个情况下的特解
 
-#### 齐次方程
+#### 一阶齐次
 
-![image-20240731193833043](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F31%2F1722425913.png)
+##### 通解结构
 
-#### 一阶线性微分方程
+$$
+y=C*齐次解
+$$
+
+![image-20240802150755908](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722582475.png)
+
+#### 一阶非齐次
 
 ![image-20240731200319178](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F07%2F31%2F1722427399.png)
+
+### 高阶
+
+#### 二阶可降阶
+
+![image-20240802125632754](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722574599.png)
+
+#### 二阶齐次线性
+
+##### 形式
+
+![image-20240802165355130](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722588835.png)
+
+##### 通解结构
+
+![image-20240802165128453](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722588688.png)
+
+#### 二阶非齐次线性
+
+##### 形式
+
+![image-20240802165329177](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722588809.png)
+
+##### 通解结构
+
+![image-20240802165220599](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722588740.png)
+
+#### 二阶常系数齐次
+
+>考研只考察这种类型的求解
+
+![image-20240802134535572](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722577535.png)
+
+#### 线性微分方程的反问题
+
+> 要想求方程必先知通解
+> 要求非齐次必先求齐次
+
+##### 反求特征值
+
+![image-20240802171558875](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722590158.png)
+
+三种形式判断出类型。
+
+![image-20240802171503646](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722590103.png)
+
+#### 二阶常系数非齐次
+
+![image-20240802205642264](https://cdn.jsdelivr.net/gh/MasterKe2003/my_blog_picture/2024%2F08%2F02%2F1722603402.png)
